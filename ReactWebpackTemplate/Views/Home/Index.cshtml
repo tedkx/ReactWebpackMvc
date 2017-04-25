@@ -1,0 +1,18 @@
+﻿@model ReactWebpackTemplate.ViewModels.HomeViewModel
+@{
+    Layout = null;
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@Model.Title | RWT</title>
+    </head>
+    <body>
+        <div id="app-wrap">
+            <div id="app"></div>
+        </div>
+   
+        @Html.Raw(Model.ScriptTags)
+    </body>
+</html>

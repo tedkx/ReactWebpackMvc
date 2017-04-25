@@ -1,0 +1,35 @@
+{
+  "name": "react-webpack-template",
+  "description": "Webpack with ASP.Net",
+  "version": "0.0.1",
+  "scripts": {
+    "webpackserver": "webpack-dev-server --port 3009 --inline --hot",
+    "webpackwatch": "webpack --watch"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fontawesome": "^4.7.2",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.5.4",
+    "react-transition-group": "^1.1.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "path": "^0.12.7",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  }
+}
